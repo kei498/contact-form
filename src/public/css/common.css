@@ -1,27 +1,23 @@
-.confirm__content {
-    margin: 0 auto;
-    padding: 30px 15px;
+.header {
+    background-color: #000;
+    height: 80px;
+}
+
+.header__inner {
     max-width: 1230px;
-}
-
-.confirm__heading {
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-.form {
+    height: 100%;
     margin: 0 auto;
-    width: 70%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
 }
 
-.confirm-table {
-    border: 1px solid #ddd;
+.header__logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
 }
-
-.confirm-table__inner {
-    width: 100%;
-}
-
 .confirm-table__header {
     padding: 15px;
     width: 20%;
